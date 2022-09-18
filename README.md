@@ -47,6 +47,8 @@ $ cd OpenTimer
 $ ./bin/ot-shell
 ```
 The image shown below will open after launching opentimer:
+
+
 ![image](https://user-images.githubusercontent.com/44607144/190922947-e2d46a74-44cc-438e-b17a-d31c0d4e1be2.png)
 
 
