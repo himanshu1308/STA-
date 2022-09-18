@@ -51,4 +51,17 @@ The image shown below will open after launching opentimer:
 
 ![image](https://user-images.githubusercontent.com/44607144/190922947-e2d46a74-44cc-438e-b17a-d31c0d4e1be2.png)
 
+#Contributors 
+* Himanshu Kumar Rai
+* Kunal Ghosh
+
+# Acknowledgments
+* Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+* Dr. Tsung-Wei Huang and Dr. Martin Wong (The University of Illinois at Urbana-Champaign, IL, USA)
+
+
+# Contact Information
+* Himanshu Kumar Rai, Research Scholar, International Institute of Information Technology, Bangalore himanshukumar.rai@iiitb.ac.in 
+* Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
 
