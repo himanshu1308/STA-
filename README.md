@@ -1,5 +1,11 @@
 # Static Timing Analysis(STA)
 ## Basic Terminology
+### Timing path 
+Timing path is defined as the path between start point and end point.
+### Start point
+All input ports or clock pins of a sequential element are considered as valid start point.
+### End Point
+All output port or D pin of sequential element is considered as End point.
 
 
 
