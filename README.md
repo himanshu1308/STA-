@@ -7,6 +7,12 @@ All input ports or clock pins of a sequential element are considered as valid st
 ### End Point
 All output port or D pin of sequential element is considered as End point.
 
+![time](https://user-images.githubusercontent.com/44607144/193751168-768f4dfc-0220-4e88-8b9b-7b7d73953f75.png)
+
+* Timing path 1 : Input port to D pin of Lauch Flop.
+* Timing path 2 : Clock port of capture flop to Output port
+* Timing path 3 : Clock port of lauch flop to D pin of Capture flop
+* Timing path 4 : Input port to Output port
 
 
 
