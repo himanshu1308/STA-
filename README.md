@@ -1,10 +1,10 @@
 # Static Timing Analysis(STA)
 ## Basic Terminology
-### Timing path 
+#### Timing path 
 Timing path is defined as the path between start point and end point.
-### Start point
+#### Start point
 All input ports or clock pins of a sequential element are considered as valid start point.
-### End Point
+#### End Point
 All output port or D pin of sequential element is considered as End point.
 
 ![time](https://user-images.githubusercontent.com/44607144/193751168-768f4dfc-0220-4e88-8b9b-7b7d73953f75.png)
@@ -13,6 +13,30 @@ All output port or D pin of sequential element is considered as End point.
 * Timing path 2 : Clock port of capture flop to Output port
 * Timing path 3 : Clock port of lauch flop to D pin of Capture flop
 * Timing path 4 : Input port to Output port
+
+#### Arrival Time :
+The time required by a signal tp start at start point and reach the end point is called arrival time. It is calculated at the end point.
+
+![image](https://user-images.githubusercontent.com/44607144/193751673-2a2eb193-c6fb-42be-b626-e3b04e196e91.png)
+#### Required Time :
+Expected time for signal to arrive.
+
+![image](https://user-images.githubusercontent.com/44607144/193751862-f9cffe25-eeb3-4a07-a6a6-c22e51175a42.png)
+
+#### Slack 
+It is difference between Arrival time and required arrival time,
+```
+Slack= AT - RAT
+```
+* Max Slack (Setup Timing, Setup Slack, Setup Analysis) : The difference between expected maximum require time and actual arrival time.
+
+* Min Slack (Hold Timing, Hold Slack, Hold Analysis) : The difference between actual arrival time and expected minimum require time.
+
+#### Types of analysis 
+![image](https://user-images.githubusercontent.com/44607144/193752506-eb19cacb-266d-477c-8ddc-41d03482c5dc.png)
+
+
+
 
 
 
