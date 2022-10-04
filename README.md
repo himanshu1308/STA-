@@ -36,21 +36,6 @@ Slack= AT - RAT
 ![image](https://user-images.githubusercontent.com/44607144/193752506-eb19cacb-266d-477c-8ddc-41d03482c5dc.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## OpenTimer
 OpenTimer is a new static timing analysis (STA) tool to help IC designers quickly verify the circuit timing. It is developed completely from the ground up using C++17 to efficiently support parallel and incremental timing.
 Key features are:
@@ -86,6 +71,21 @@ The image shown below will open after launching opentimer:
 
 
 ![image](https://user-images.githubusercontent.com/44607144/190922947-e2d46a74-44cc-438e-b17a-d31c0d4e1be2.png)
+
+## Timing analysis of My design
+type the following commands after opening terminal:
+```
+$ cd OpenLane 
+$ sudo make mount
+$ sta 
+```
+![1](https://user-images.githubusercontent.com/44607144/193761227-53f9ac44-1e4b-48cf-b2e8-4cf734442685.png)
+
+![2](https://user-images.githubusercontent.com/44607144/193761265-ad00b398-8110-4a42-8625-97a54f44996d.png)
+
+
+
+
 
 #Contributors 
 * Himanshu Kumar Rai
