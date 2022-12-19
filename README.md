@@ -73,6 +73,7 @@ The image shown below will open after launching opentimer:
 ![image](https://user-images.githubusercontent.com/44607144/190922947-e2d46a74-44cc-438e-b17a-d31c0d4e1be2.png)
 
 ## Timing analysis of My design
+I have performed the whole RTL to GDSII flow for my design, you can check the link for reference https://github.com/himanshu1308/iiitb_pwm.git 
 type the following commands after opening terminal:
 ```
 $ cd OpenLane 
