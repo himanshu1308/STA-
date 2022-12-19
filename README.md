@@ -81,7 +81,17 @@ $ cd OpenLane
 $ sudo make mount
 $ sta 
 ```
-After this the OpenSta will be open
+After this the OpenSta tool will open, then type the following commands one by one:
+```
+read_liberty -max sky130_fd_sc_hd__fast.lib
+read_liberty -min sky130_fd_sc_hd__slow.lib
+read_verilog iiitb_pwm_gen.v
+link_design iiitb_pwm_gen
+read_sdc iiitb_pwm_gen.sdc
+read_spef iiitb_pwm_gen.nom.spef
+set_propagated_clock [all_clocks]
+report_checks
+```
 ![1](https://user-images.githubusercontent.com/44607144/193761227-53f9ac44-1e4b-48cf-b2e8-4cf734442685.png)
 
 ![2](https://user-images.githubusercontent.com/44607144/193761265-ad00b398-8110-4a42-8625-97a54f44996d.png)
