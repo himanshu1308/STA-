@@ -74,12 +74,14 @@ The image shown below will open after launching opentimer:
 
 ## Timing analysis of My design
 I have performed the whole RTL to GDSII flow for my design, you can check the link for reference https://github.com/himanshu1308/iiitb_pwm.git 
+
 type the following commands after opening terminal:
 ```
 $ cd OpenLane 
 $ sudo make mount
 $ sta 
 ```
+After this the OpenSta will be open
 ![1](https://user-images.githubusercontent.com/44607144/193761227-53f9ac44-1e4b-48cf-b2e8-4cf734442685.png)
 
 ![2](https://user-images.githubusercontent.com/44607144/193761265-ad00b398-8110-4a42-8625-97a54f44996d.png)
