@@ -73,7 +73,7 @@ The image shown below will open after launching opentimer:
 ![image](https://user-images.githubusercontent.com/44607144/190922947-e2d46a74-44cc-438e-b17a-d31c0d4e1be2.png)
 
 ## Timing analysis of My design
-I have performed the whole RTL to GDSII flow for my design, you can check the link for reference https://github.com/himanshu1308/iiitb_pwm.git 
+The inputs to this tool is verilog file of design, sdc file and spef file. sdc and spef file we get after the RTL to GDSII flow and I have performed the whole RTL to GDSII flow for my design using OpenLane, you can check the link for reference https://github.com/himanshu1308/iiitb_pwm.git .
 
 type the following commands after opening terminal:
 ```
@@ -97,7 +97,7 @@ report_checks
 After writing these commands the OpenTimer tool will output results which have start Point, End Point and type of analysis. The results will look like the image shown below:
 
 ![2](https://user-images.githubusercontent.com/44607144/193761265-ad00b398-8110-4a42-8625-97a54f44996d.png)
-At last line it is showing slack =
+At last line it is showing slack =6.63(MET), since it is positive the design fullfills the timing criteria.
 
 
 
