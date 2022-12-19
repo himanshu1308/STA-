@@ -81,7 +81,7 @@ $ cd OpenLane
 $ sudo make mount
 $ sta 
 ```
-After this the OpenSta tool will open, then type the following commands one by one:
+After this the OpenTimer tool will open, then type the following commands one by one:
 ```
 read_liberty -max sky130_fd_sc_hd__fast.lib
 read_liberty -min sky130_fd_sc_hd__slow.lib
