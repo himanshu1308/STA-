@@ -94,7 +94,11 @@ report_checks
 ```
 ![1](https://user-images.githubusercontent.com/44607144/193761227-53f9ac44-1e4b-48cf-b2e8-4cf734442685.png)
 
+After writing these commands the OpenTimer tool will output results which have start Point, End Point and type of analysis. The results will look like the image shown below:
+
 ![2](https://user-images.githubusercontent.com/44607144/193761265-ad00b398-8110-4a42-8625-97a54f44996d.png)
+
+
 
 
 
